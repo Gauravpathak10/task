@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<style>
+    body {
+        height: 200vh;
+    }
+
+    .test {
+        color: yellow;
+        width: 200px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .default {
+        color: #000;
+        font-size: 12px;
+    }
+</style>
+
+<body>
+    <div>
+        <p id="myP" class="test default">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis, recusandae vero delectus est modi.
+            Delectus suscipit est similique? Nulla consequuntur deleniti, in repudiandae corporis quae optio aliquam
+            nostrum
+            ipsa minima non unde quia quo, esse numquam dolore magnam amet neque. Exercitationem eligendi earum
+            repudiandae
+            culpa laborum vero, alias ipsa dolor ducimus dignissimos facere dolore quasi accusantium consequuntur
+            maxime!
+            Sequi iusto porro amet nesciunt, quidem commodi architecto dolore laboriosam exercitationem possimus?
+            Corrupti
+            nemo ipsum vitae eum cupiditate, facilis autem odio aliquid eaque hic molestiae aliquam magni at placeat
+            veritatis nisi atque culpa, quam dignissimos. Porro repellat mollitia quisquam esse exercitationem corrupti
+            aut
+            aliquid aspernatur nisi, magnam architecto id rerum veniam dolorum molestias impedit labore eos, voluptate
+            dignissimos dolores enim ex eveniet necessitatibus ea? Sequi architecto in atque odit assumenda, sunt ab,
+            vitae
+            veniam laboriosam officiis corrupti possimus esse illum blanditiis nostrum aperiam eum enim dolores. Quod
+            natus
+            eveniet nostrum, impedit fugit est repudiandae sit, consequuntur doloremque quisquam, eligendi ducimus amet.
+            Perferendis corrupti voluptatibus beatae mollitia, nostrum velit dolor, optio fugiat eos soluta ullam nulla
+            pariatur accusantium et ex? Nostrum, expedita incidunt! Ea voluptatibus quasi incidunt sequi dignissimos
+            suscipit eveniet, facilis accusantium, consequuntur deserunt velit adipisci ullam repudiandae cum omnis
+            excepturi?
+        </p>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("myP").className = "test";
+            } else {
+                document.getElementById("myP").className = "default";
+            }
+        }
+        console.log(myFunction);
+    </script>
+</body>
+
+</html>

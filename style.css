@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300&family=Mochiy+Pop+P+One&family=Roboto:wght@100&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+/* mobile-menu */
+
+.mobile-main {
+    display: none;
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    align-items: center;
+}
+
+.mobile h1 {
+    color: #000;
+}
+
+.mobile div {
+    padding: 6px;
+    border-radius: 20px;
+}
+
+/* ended */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding: 0px 10px;
+}
+
+.display-none {
+    display: none;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: heebo, sans-serif;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+nav div {
+    background-color: rgb(237, 237, 237);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+nav i {
+    color: rgb(160, 158, 158);
+}
+
+section {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: heebo, sans-serif;
+}
+
+section mark {
+    color: blue;
+    background-color: transparent;
+}
+
+section div {
+    width: 500px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+section button {
+    padding: 10px;
+    background-color: rgb(0, 70, 135);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+section p {
+    font-size: 1.3rem;
+}
+
+/* second-section */
+
+content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+content h2 {
+    font-size: 20px;
+    color: blue;
+}
+
+content img {
+    width: 39.2rem;
+    border-radius: 20px;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+#child-second {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+
+    box-shadow: 0px 2px 6px 4px #aaa5a5;
+    transform: translateX(-40px);
+}
+
+#icons {
+    text-align: center;
+    padding: 16px;
+    padding-left: 0px;
+    color: cornflowerblue;
+}
+
+#main-div {
+    width: 70%;
+    background: rgb(0, 70, 135);
+    transform: translateY(10%);
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 2px rgb(116, 105, 105);
+}
+
+#icons i {
+    margin: 10px;
+}
+
+.featured-writers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured-writers img {
+    width: 100px;
+    border-radius: 60px;
+}
+
+.featured-writers div {
+    text-align: center;
+    width: 220px;
+    margin: 1rem;
+}
+
+.featured-writers p {
+    font-family: heebo, sans-serif;
+    font-weight: bold;
+    color: white;
+}

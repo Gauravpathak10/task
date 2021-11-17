@@ -1,0 +1,61 @@
+@media only screen and (max-width:1111px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        display: none;
+    }
+    .mobile-main {
+        display: block;
+    }
+    section {
+        height: auto;
+    }
+    content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #child-second {
+        width: 402px;
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 3px 2px 6px 2px black;
+        transform: translateY(-40px);
+    }
+}
+
+@media only screen and (max-width:610px) {
+    content img {
+        width: auto;
+    }
+    .featured-writers div {
+        width: auto;
+    }
+    content img {
+        width: 278px;
+    }
+    #child-second {
+        width: 215px;
+        background-color: rgb(255, 255, 255);
+        padding: 11px;
+        font-size: 14px;
+        border-radius: 15px;
+        box-shadow: 3px 2px 6px 2px black;
+        /* transform: translateX(-40px); */
+    }
+    #main-div {
+        width: 88%;
+        background: rgb(0, 70, 135);
+        margin: auto;
+        padding: 10px;
+        border-radius: 20px;
+        transform: translate(0px, 0px);
+    }
+    section h1 {
+        font-size: 20px;
+    }
+}
